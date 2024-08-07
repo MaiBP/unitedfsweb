@@ -177,7 +177,6 @@ const PrivacyPolicy: React.FC = () => {
             info@unitedfs.com
           </a>
         </address>
-
         <h2 className="text-2xl font-bold mt-6 mb-2">Conclusion</h2>
         <p>
           At United Football Scouting, we are dedicated to protecting your
