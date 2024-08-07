@@ -11,7 +11,7 @@ const ProductList = () => {
           🎟️ Save your place!
         </span>
       </h1>
-
+      
       <div className="flex flex-wrap justify-center gap-16">
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
