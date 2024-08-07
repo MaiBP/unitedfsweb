@@ -13,7 +13,6 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 
-
 const AboutUs = () => {
      const plugin = React.useRef(
        Autoplay({ delay: 2000, stopOnInteraction: true })
