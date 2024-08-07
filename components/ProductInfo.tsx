@@ -1,4 +1,5 @@
 "use client";
+
 import { Product } from "@/app/types";
 import { useEffect, useState } from "react";
 import { FaInstagram } from "react-icons/fa";

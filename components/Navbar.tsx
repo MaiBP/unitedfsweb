@@ -19,6 +19,10 @@ const Navbar = () => {
 
   const [dropdownMenu, setDropdownMenu] = useState(false);
 
+  const handleLinkClick = () => {
+    setDropdownMenu(false);
+  };
+
   return (
     <div className="sticky top-0 z-50 py-2 px-5 flex gap-2 justify-between items-center bg-white max-sm:px-2">
       <Link href="/">
@@ -89,7 +93,11 @@ const Navbar = () => {
 
         {dropdownMenu && (
           <div className="absolute top-10 right-5 flex flex-col gap-4 p-3 rounded-lg border bg-white text-base-bold lg:hidden">
-            <Link href="/" className="hover:text-[#BF8B32]">
+            <Link
+              href="/"
+              className="hover:text-[#BF8B32]"
+              onClick={handleLinkClick}
+            >
               Home
             </Link>
             <Link
@@ -97,6 +105,7 @@ const Navbar = () => {
               className={`hover:text-[#BF8B32] ${
                 pathname === "/aboutus" && "text-[#BF8B32]"
               }`}
+              onClick={handleLinkClick}
             >
               About
             </Link>
@@ -105,6 +114,7 @@ const Navbar = () => {
               className={`hover:text-[#BF8B32] ${
                 pathname === "/contactus" && "text-[#BF8B32]"
               }`}
+              onClick={handleLinkClick}
             >
               Contact
             </Link>
@@ -113,6 +123,7 @@ const Navbar = () => {
               className={`hover:text-[#BF8B32] ${
                 pathname === "/activities" && "text-[#BF8B32]"
               }`}
+              onClick={handleLinkClick}
             >
               Activities
             </Link> */}

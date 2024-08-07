@@ -1,4 +1,6 @@
-import React from 'react'
+"use client";
+
+import React from "react";
 
 const ContactInfo = () => {
   return (
@@ -23,6 +25,6 @@ const ContactInfo = () => {
       </div>
     </>
   );
-}
+};
 
-export default ContactInfo
+export default ContactInfo;

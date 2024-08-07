@@ -35,24 +35,24 @@ export const products: Product[] = [
 export const events = [
   {
     id: 1,
-    imageSrc: "/images/eventCategories/Clinics.jpg",
+    imageSrc: "/images/categories/clinics.png",
     title: "Soccer Clinics - Miami, FL",
     description: "description of the event",
     link: "clinics", 
   },
   {
     id: 2,
-    imageSrc: "/images/eventCategories/Tryouts.jpg",
+    imageSrc: "/images/categories/camps.png",
     title: "Soccer Clinics - Miami, FL",
     description: "description of the event",
-    link: "tryouts",  
+    link: "camps",  
   },
   {
     id: 3,
-    imageSrc: "/images/eventCategories/Camps.jpg",
+    imageSrc: "/images/categories/tryouts.png",
     title: "Soccer Clinics - Miami, FL",
     description: "description of the event",
-    link: "camps", 
+    link: "tryouts", 
   },
 ];
 

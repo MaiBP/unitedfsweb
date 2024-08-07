@@ -20,7 +20,7 @@ const Page = () => {
     <div className="flex flex-col min-h-screen">
       <div className="relative w-full h-64 md:h-80 lg:h-96">
         <Image
-          src="/images/eventCategories/Tryouts.jpg"
+          src="/images/categories/tryouts.png"
           alt="banner"
           layout="fill"
           objectFit="cover"
